@@ -13,7 +13,7 @@ import pkg from '../../../package.json';
 import useUserSOLBalanceStore from '../../stores/useUserSOLBalanceStore';
 import { Connection, PublicKey, Transaction } from '@solana/web3.js';
 import { notify } from 'utils/notifications';
-import { RPC_ENDPOINT } from './constant'
+import { RPC_ENDPOINT } from './constant';
 
 export const HomeView: FC = ({ }) => {
   const wallet = useWallet();
@@ -49,8 +49,8 @@ window.Jupiter.init({
     },
 })
   }
-  >
-</button>
+  ></button>
+
           
         <div className='text-sm font-normal align-bottom text-right text-slate-600 mt-4'>v{pkg.version}</div>
         <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
